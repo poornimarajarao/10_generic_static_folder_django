@@ -1,0 +1,74 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature's Treasures</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+      <nav class="navbar navbar-light bg-white shadow-sm">
+        <div class="container d-flex justify-content-center">
+            <a class="navbar-brand fw-semibold fs-4 text-center" href="#">🌿 Nature’s Treasures</a>
+        </div>
+    </nav>
+
+    <div class="container py-5">
+        <div class="row g-4">
+
+            <div class="col-md-3 col-sm-6">
+                <div class="card h-100 border-0 shadow-sm">
+                    <img src="{% static 'images/Apple.jpg' %}" class="card-img-top" alt="Apple">
+                    <div class="card-body">
+                        <h5 class="card-title">Apple</h5>
+                        <p class="card-text text-muted">
+                            Apples are rich in fiber and vitamins. They help improve digestion and boost your energy naturally.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="card h-100 border-0 shadow-sm">
+                    <img src="{% static 'images/Grape.jpg' %}" class="card-img-top" alt="Grapes">
+                    <div class="card-body">
+                        <h5 class="card-title">Grapes</h5>
+                        <p class="card-text text-muted">
+                            Grapes are full of antioxidants that support heart health and keep your skin glowing.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="card h-100 border-0 shadow-sm">
+                    <img src="{% static 'images/Orange.jpg' %}" class="card-img-top" alt="Orange">
+                    <div class="card-body">
+                        <h5 class="card-title">Orange</h5>
+                        <p class="card-text text-muted">
+                            Oranges are packed with vitamin C. They strengthen your immune system and refresh your body.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="card h-100 border-0 shadow-sm">
+                    <img src="{% static 'images/Pomegranate.jpg' %}" class="card-img-top" alt="Pomegranate">
+                    <div class="card-body">
+                        <h5 class="card-title">Pomegranate</h5>
+                        <p class="card-text text-muted">
+                            Pomegranates are loaded with antioxidants and help keep your heart and skin healthy.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
